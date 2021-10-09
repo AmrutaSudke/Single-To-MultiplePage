@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+   <title>Blog Page </title>
+   <!-- Google Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,300,700' rel='stylesheet' type='text/css'>
+   <!-- ionicons Fonts for icons -->
+   <link href="css/ionicons.min.css" rel="stylesheet">
+   <!-- bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <!-- Styles CSS-->
+   <link href="css/style.css" rel="stylesheet">
+   <!-- Animate CSS-->
+   <link href="css/animate.css" rel="stylesheet">
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+      <![endif]-->
+      <style>
+         .bacon-blog-post {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.bacon-blog-post-inner { padding: 42px; }
+
+.bacon-blog-post .wp-post-image {
+  width: 100%;
+  height:300px;
+}
+
+.bacon-blog-post h1, .bacon-blog-post h2, .bacon-blog-post h3, .bacon-blog-post h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family:monospace;
+}
+
+.bacon-blog-post h1 a, .bacon-blog-post h2 a, .bacon-blog-post h3 a, .bacon-blog-post h4 a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.bacon-blog-post h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+.bacon-blog-post h2 { margin-top: 0; font-size: 2.369em;}
+.bacon-blog-post h3 {font-size: 1.777em;}
+.bacon-blog-post h4 {font-size: 1.333em;}
+.bacon-blog-post small, .bacon-blog-post .font_small {font-size: 0.75em;}
+
+.bacon-blog-post p, .bacon-blog-post p a {
+  font-family:monospace;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bacon-blog-post p { margin-bottom: 1.3em; }
+.bacon-blog-post p:last-child { margin-bottom: 0; }
+.bacon-blog-post p a { color:black; }
+
+.bacon-blog-post blockquote {
+  margin: 1.3em;
+  padding-left: 1.3em;
+  border-left:#2a3d7d solid 0.25em;
+  font-style: italic;
+}
+
+.bacon-shadow:after {
+  position: absolute;
+  content: "";
+  left: 20px;
+  right: 20px;
+  bottom: 0px;
+  z-index: -1;
+  box-shadow: 0 0 30px 4px rgba(0,0,0,0.60);
+}
+      </style>
+</head>
+
+<body class="box-layout">
+   <!-- Page Loader -->
+   <div class="page-loader">
+      <div class="loader">
+         <span class="cssload-loading"></span>
+      </div>
+   </div>
+   <!-- End Page Loader -->
+   <div class="inner-conterner">
+      <!-- inner-conterner -->
+      <header class="site-header">
+         <div class="header-inner">
+            <!-- navigation panel -->
+            <div class="container">
+               <div class="row">
+                  <div class="header-table col-md-12">
+                     <div class="brand">
+                        <a href="index.html">
+                           <img src="img/icons8-nl-logo-50.png">
+                        </a>
+                     </div>
+                     <nav id="nav-wrap" class="main-nav">
+                        <div id="mobnav-btn"> </div>
+                        <ul class="sf-menu">
+                           <li class="current">
+                              <a href="index.html">Home</a>
+                           </li>
+                           <li>
+                              <a href="About.html">About</a>                             
+                           </li>
+                           
+                           <li>
+                              <a href="Portfolio.html">Portfolio</a>
+                           </li>
+                           <li>
+                              <a href="Blog.html">Blog</a>
+                           </li>
+                           <li>
+                              <a href="Shop.html">Shop</a>
+                           </li>
+                           <li class="menu-search-bar">
+                              <a id="search-label"><i class="ion-search"></i></a>
+                              <form class="search-bar" id="searchform">
+                                 <input type="text" placeholder="Search..." name="s">
+                              </form>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <!-- End navigation panel -->
+            </div>
+            <!-- End navigation panel -->
+         </div>
+      </header>
+      
+      
+      <!-- Testimonials Section -->
+      <div class="testimonials-container">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 wow fadeInUp">
+                  <div class="title-un-icon"><i class="fa ion-quote"></i></div>
+                  <h3 class="title-un">WHAT PEOPLE SAY?</h3>
+                  <div id="owl-slide" class="testimonials owl-carousel">
+                     <div class="testimonial">
+                        <p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut ullamcorper lacus, vel mattis nibh. Aliquam a enim rutrum, ultrices purus at, porta leo at pellentesque. </p>
+                        <div class="client">
+                           <div class="client-info">
+                              <div class="client-name">
+                                 John Doe, Lacus INC
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial">
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut ullamcorper lacus, vel mattis nibh. Aliquam a enim rutrum, ultrices purus at, porta leo at pellentesque. </p>
+                        <div class="client">
+                           <div class="client-info">
+                              <div class="client-name">
+                                 John Doe, Lacus INC
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial">
+                        <p style="text-align:justify ;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut ullamcorper lacus, vel mattis nibh. Aliquam a enim rutrum, ultrices purus at, porta leo at pellentesque. </p>
+                        <div class="client">
+                           <div class="client-info">
+                              <div class="client-name">
+                                 John Doe, Lacus INC
+                              </div>
+                           </div>
+                        </div> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Testimonials Section -->
+    
+      <div class="container-newsletter">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="text-center" style="color: #2a3d7d;">Subscribe Newsletter</h2>
+                  <div class="title-un-icon"><i class="fa ion-ios-book-outline"></i></div>
+                  <p class="title-un-des" style="font-weight: bold; font-size: 15px; text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut ullamcorper lacus, vel mattis nibh. Aliquam a enim rutrum, ultrices purus at, porta leo at pellentesque. </p>
+                  <div class="newsletter-container wow fadeInUp">
+                     <input placeholder="Email" class="newsletter-field" type="email" required="" name="EMAIL">
+                     <button type="submit" class="btn btn-primary btn-lg"  >Subscribe </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> 
+      </div>
+      
+      <!-- Blog Section -->
+      <div class="container">
+         <h2 class="text-center" style="color: #2a3d7d;"> Blog</h2>
+         <div class="row" style="margin: 10px;">
+            <div class="col-md-6" >
+               <div class="bacon-blog-post bacon-shadow" style="font-weight: bold; font-size: 10px; text-align:justify; font-family: sans-serif;">
+                  <img src="img/img5.jpg" class="wp-post-image" style="width: 100%; height: 300px;" > 
+                  <div class="bacon-blog-post-inner" >
+                    <h2><a href="http://garybacon.com/post/finding-what-challenges-you/" rel="bookmark" title="Permanent link to Finding What Challenges You" class="title-row" style="color: #2a3d7d;">Finding What Challenges You</a></h2>
+                    <p>In an <a href="https://www.youtube.com/watch?v=eaVBDPAy-SI" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.youtube.com/watch?v=eaVBDPAy-SI', 'interview']);" target="_blank">interview</a>, Neil deGrasse Tyson talks about science
+                      boosting the economy. He goes on to say, most companies and politicians don’t have the tolerance for the long term view.</p>
+                   
+                    
+                    <blockquote>
+                      <p>Flow is the intersection of what you are good at and what challenges you— where difficulty and competency meet.</p>
+                      <p>When your competency exceeds the difficulty of a task, you are bored. And when the difficulty exceeds your competency, you are anxious. That was my problem: I was bored.</p>
+                      <p>— Jeff Goins, <a href="http://amzn.to/28INctw" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://amzn.to/28INctw', 'The Art of Work']);" target="_blank" style="color: #2a3d7d;">The Art of Work</a></p>
+                    </blockquote>
+                    
+                    <p><h3 style="color: #2a3d7d;">Inspiration</h3>
+                    <p>For inspiration, this is one of the reasons that I have side projects. To keep pushing my limits. It allows me to play. To find out how to make user interfaces for VR, tinker with implementing the <a href="https://www.ampproject.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.ampproject.org/', 'Acelerated Mobile Pages Project']);" target="_blank">Acelerated Mobile Pages Project</a> on content, create a <a href="http://garybacon.com/snapchat/" target="_blank">landing page for Snapchat</a>, write books, and so much more.</p>
+                  </div>
+                </div> 
+
+            </div>
+            <div class="col-md-6"> 
+               <div class="bacon-blog-post bacon-shadow"style="font-weight: bold; font-size: 10px; text-align:justify; font-family: sans-serif;">
+                  <img src="img/img7.jpg" class="wp-post-image" style="width: 100%; height: 300px;" > 
+                  <div class="bacon-blog-post-inner" >
+                    <h2><a href="http://garybacon.com/post/finding-what-challenges-you/" rel="bookmark" title="Permanent link to Finding What Challenges You" class="title-row" style="color: #2a3d7d;">Finding What Challenges You</a></h2>
+                    <p>In an <a href="https://www.youtube.com/watch?v=eaVBDPAy-SI" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.youtube.com/watch?v=eaVBDPAy-SI', 'interview']);" target="_blank">interview</a>, Neil deGrasse Tyson talks about science
+                      boosting the economy. He goes on to say, most companies and politicians don’t have the tolerance for the long term view.</p>
+                    
+                    <blockquote>
+                      <p>Flow is the intersection of what you are good at and what challenges you— where difficulty and competency meet.</p>
+                      <p>When your competency exceeds the difficulty of a task, you are bored. And when the difficulty exceeds your competency, you are anxious. That was my problem: I was bored.</p>
+                      <p>— Jeff Goins, <a href="http://amzn.to/28INctw" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://amzn.to/28INctw', 'The Art of Work']);" target="_blank" style="color: #2a3d7d;">The Art of Work</a></p>
+                    </blockquote>
+                    
+                    <p><h3 style="color: #2a3d7d;">Inspiration</h3>
+                    <p>For inspiration, this is one of the reasons that I have side projects. To keep pushing my limits. It allows me to play. To find out how to make user interfaces for VR, tinker with implementing the <a href="https://www.ampproject.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.ampproject.org/', 'Acelerated Mobile Pages Project']);" target="_blank">Acelerated Mobile Pages Project</a> on content, create a <a href="http://garybacon.com/snapchat/" target="_blank">landing page for Snapchat</a>, write books, and so much more.</p>
+                  </div>
+                </div>
+            </div>
+
+         </div>
+      </div>
+     
+         
+                               
+
+     </div>
+     
+     
+         
+      <!-- End Blog Section -->
+     
+      <!-- Footer -->
+      <footer class="bg-dark text-white text-center text-lg-start" style="margin-top: 20px; background-color: rgb(88, 86, 86); color: white;">
+         <!-- Grid container -->
+         <div class="container p-4">
+           <!--Grid row-->
+           <div class="row">
+             <!--Grid column-->
+             <div class="col-lg-6 col-md-12 mb-4 mb-md-0"  style="color: white;">
+               <h5 class="text-uppercase" style="color: white;"></h5>
+               <h3 style="color: white;">RELAX. </h3>
+                   <h4  style="color: white;"><i> "Experience The Great Food.."</i></h4>
+       
+               <blockquote style="color: white;">
+                 Anand Square, Opposite Symbosis International College,
+                  New Airport Rd, Viman Nagar, Pune, Maharashtra 411014
+               </blockquote>
+             </div>
+             <!--Grid column-->
+       
+             <!--Grid column-->
+             <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="color: white;">
+               <h5 class="text-uppercase" style="color: white;">FOLLOW US</h5>
+       
+               <ul class="list-unstyled mb-0" >
+                 <li>
+                  <img src="img/icons8-facebook-48.png" style="margin: 0 auto;">
+                   <!-- <i class="fa fa-linkedin" style="font-size:36px"></i> -->
+                 </li>
+                 <li>
+                  <img src="img/icons8-google-plus-48.png" style="margin: 0 auto;">
+                  
+                   <!-- <i class='fa fa-facebook text-white' style='font-size:36px'></i> -->
+                 </li>
+                 <li>
+                  <img src="img/icons8-twitter-circled-48.png" style="margin: 0 auto;">
+                   <!-- <i class='fa fa-twitter  text-white' style='font-size:36px'></i> -->
+                 </li>
+                 <li>
+                  <img src="img/icons8-linkedin-circled-48.png" style="margin: 0 auto;">
+                  
+                   <!-- <i class="fa fa-instagram" style="font-size:36px"></i> -->
+                 </li>
+               </ul>
+             </div>
+             <!--Grid column-->
+       
+             <!--Grid column-->
+             <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="color: white;">
+               <h5 class="text-uppercase mb-0"></h5>
+       
+               <div>
+               
+                   <i class=" fa fa-map-marker text-white" style="font-size: 20px;" style="color: white;">  Kothrud,Pune,411038</i><br>
+     
+                 </div>
+                 <div>
+                   <br>
+                   <i class='fa fa-phone text-white' style="font-size: 20px;" style="color: white;"> 0800 123 4567</i><br>
+                 
+                 </div>
+                 <div>
+                   <br>
+                   <i class="fa fa-envelope text-white" style="font-size:15px" style="color: white;">  help@cafepeter.in </i><br>
+                 
+                 </div>
+                 
+               
+             </div>
+             <!--Grid column-->
+           </div>
+           <!--Grid row-->
+         </div>
+         <!-- Grid container -->
+       
+         <!-- Copyright -->
+         <div class="text-center p-3" style="background-color: black; color: white;">
+           © 2021  Copyright: Amruta
+          
+         </div>
+         <!-- Copyright -->
+       </footer>
+     <!-- Footer -->
+   </div>
+   <!-- End inner-conterner -->
+   <!-- ================================================== -->
+   <!-- Placed js files at the end of the document so the pages load faster -->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/superfish.js"></script>
+   <script src="js/jquery.easing.js"></script>
+   <script src="js/wow.js"></script>
+   <script src="js/jquery.isotope.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/jquery.magnific-popup.js"></script>
+   <script src="js/jflickrfeed.min.js"></script>
+   <script src="js/jquery.fitvids.js"></script>
+   <script src="js/jquery.fractionslider.min.js"></script>
+   <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+   <script type="text/javascript" src="js/SmoothScroll.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
